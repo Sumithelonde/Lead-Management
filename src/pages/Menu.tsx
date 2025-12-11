@@ -64,26 +64,35 @@ const Menu = () => {
         <section className="sticky top-[72px] z-30 bg-background/95 backdrop-blur-md border-b border-border py-4">
           <div className="container mx-auto px-4">
             <div className="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-hide">
-              <Button
-                variant={activeCategory === null ? "default" : "secondary"}
-                size="sm"
-                onClick={() => setActiveCategory(null)}
-                className="flex-shrink-0 rounded-full"
+              <motion.div
+                whileHover={{ scale: 1.05, y: -2 }}
+                whileTap={{ scale: 0.95 }}
               >
-                <Filter className="w-4 h-4 mr-1" />
-                All
-              </Button>
-              {menuData.map((category) => (
                 <Button
-                  key={category.id}
-                  variant={activeCategory === category.id ? "default" : "secondary"}
+                  variant={activeCategory === null ? "default" : "secondary"}
                   size="sm"
-                  onClick={() => setActiveCategory(category.id)}
-                  className="flex-shrink-0 rounded-full gap-1"
+                  onClick={() => setActiveCategory(null)}
+                  className="flex-shrink-0 rounded-full transition-all duration-200"
                 >
-                  <span>{category.icon}</span>
-                  {category.name}
+                  <Filter className="w-4 h-4 mr-1" />
+                  All
                 </Button>
+              </motion.div>
+              {menuData.map((category) => (
+                <motion.div
+                  key={category.id}
+                  whileHover={{ scale: 1.05, y: -2 }}
+                  whileTap={{ scale: 0.95 }}
+                >
+                  <Button
+                    variant={activeCategory === category.id ? "default" : "secondary"}
+                    size="sm"
+                    onClick={() => setActiveCategory(category.id)}
+                    className="flex-shrink-0 rounded-full transition-all duration-200"
+                  >
+                    {category.name}
+                  </Button>
+                </motion.div>
               ))}
             </div>
           </div>

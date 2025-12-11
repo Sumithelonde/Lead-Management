@@ -61,6 +61,7 @@ export function BakeryScene() {
           rotateZ: springRotateZ,
           transformStyle: "preserve-3d",
           perspective: 1000,
+          filter: isHovered ? "drop-shadow(0 25px 50px rgba(0, 0, 0, 0.3))" : "drop-shadow(0 15px 30px rgba(0, 0, 0, 0.2))",
         }}
         transition={{
           duration: isHovered ? 0.3 : 6,
