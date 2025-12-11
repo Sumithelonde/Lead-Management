@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # La Farine Patisserie & Café
 
 A modern, elegant bakery and café website built with React, Vite, TailwindCSS, and Spline 3D.
@@ -105,3 +106,6 @@ See [STRUCTURE.md](./STRUCTURE.md) for the complete folder hierarchy.
 ## License
 
 MIT License - Feel free to use this project as a template for your own café or bakery website.
+=======
+# Lead-Management
+>>>>>>> 370f83102350946147c57a7518b88c0554fa126a
