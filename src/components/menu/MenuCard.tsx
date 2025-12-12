@@ -70,11 +70,9 @@ export function MenuCard({ item, index = 0 }: MenuCardProps) {
           <h3 className="font-display font-semibold text-foreground group-hover:text-primary transition-colors line-clamp-1">
             {item.name}
           </h3>
-          {item.isVeg && (
-            <span className="flex-shrink-0 w-4 h-4 border-2 border-green-600 rounded-sm flex items-center justify-center">
-              <span className="w-2 h-2 rounded-full bg-green-600" />
-            </span>
-          )}
+          <span className={`flex-shrink-0 w-4 h-4 border-2 ${item.isVeg ? 'border-green-600' : 'border-red-600'} rounded-sm flex items-center justify-center`}>
+            <span className={`w-2 h-2 rounded-full ${item.isVeg ? 'bg-green-600' : 'bg-red-600'}`} />
+          </span>
         </div>
         <p className="text-sm text-muted-foreground line-clamp-2 mb-4 min-h-[40px]">
           {item.description}

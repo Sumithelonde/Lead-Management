@@ -19,7 +19,7 @@ export function AboutSection() {
                 className="rounded-2xl overflow-hidden shadow-medium aspect-[3/4] relative"
               >
                 <img 
-                  src="/Images/Croissants 1.jpeg" 
+                  src="Images\Classic French Toast.jpeg" 
                   alt="Fresh croissant with coffee"
                   className="w-full h-full object-cover"
                 />
@@ -29,7 +29,7 @@ export function AboutSection() {
                 className="rounded-2xl overflow-hidden shadow-medium aspect-[3/4] mt-8 relative"
               >
                 <img 
-                  src="/Images/Tea 1.jpeg" 
+                  src="Images\Classic Milk Tea.jpeg" 
                   alt="French toast with syrup"
                   className="w-full h-full object-cover"
                 />
@@ -75,15 +75,20 @@ export function AboutSection() {
 
             {/* Info Cards */}
             <div className="space-y-4">
-              <div className="flex items-start gap-4 p-4 bg-secondary/50 rounded-xl">
-                <MapPin className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
+              <a 
+                href="https://www.google.com/maps/place/La+Farine+patisserie+and+cafe/@21.1248825,79.0567512,17z/data=!4m15!1m8!3m7!1s0x3bd4bfb969670c8d:0x118eb3e477af864a!2sLa+Farine+patisserie+and+cafe!8m2!3d21.1248825!4d79.0593261!10e9!16s%2Fg%2F11ghlp90d4!3m5!1s0x3bd4bfb969670c8d:0x118eb3e477af864a!8m2!3d21.1248825!4d79.0593261!16s%2Fg%2F11ghlp90d4?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-start gap-4 p-4 bg-secondary/50 rounded-xl hover:bg-secondary/70 transition-colors cursor-pointer group"
+              >
+                <MapPin className="w-5 h-5 text-accent flex-shrink-0 mt-0.5 group-hover:scale-110 transition-transform" />
                 <div>
-                  <p className="font-medium text-foreground">Visit Us</p>
+                  <p className="font-medium text-foreground group-hover:text-accent transition-colors">Visit Us</p>
                   <p className="text-sm text-muted-foreground">
                     Shraddhanand Chowk, opposite A Square Building, Laxminagar, Nagpur 440022
                   </p>
                 </div>
-              </div>
+              </a>
               <div className="grid grid-cols-2 gap-4">
                 <div className="flex items-start gap-3 p-4 bg-secondary/50 rounded-xl">
                   <Phone className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />

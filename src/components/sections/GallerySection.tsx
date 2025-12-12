@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
 
 const galleryImages = [
-  { image: "Images/Croissants.jpeg", label: "Croissants", emoji: "🍞" },
-  { image: "/Images/classic french fries.jpeg", label: "Classic Fries", emoji: "🍟" },
-  { image: "/Images/Tea 2.jpeg", label: "Coffee", emoji: "☕" },
-  { image: "Images/peri peri fries.jpeg", label: "Peri Peri Fries", emoji: "🥐" },
-  { image: "Images/Waffle.jpeg", label: "Waffles", emoji: "🧇" },
-  { image: "Images/Pasta.jpeg", label: "Pasta", emoji: "🍝" },
-  { image: "Images/Burger.jpeg", label: "Burgers", emoji: "🍔" },
-  { image: "Images/Matcha Bubble Tea.jpeg", label: "Bubble Tea", emoji: "🧋" },
+  { image: "Images\\Chamomile Tea.jpg", label: "Chamomile Tea", emoji: "🍞" },
+  { image: "Images\\classic french fries.jpeg", label: "Classic Fries", emoji: "🍟" },
+  { image: "Images\\Cappuccino.jpg", label: "Cappuccino", emoji: "☕" },
+  { image: "Images\\peri peri fries.jpeg", label: "Peri Peri Fries", emoji: "🥐" },
+  { image: "Images\\Red Velvet Waffle.jpg", label: "Red Velvet Waffle", emoji: "🧇" },
+  { image: "Images\\Pink Sauce Pasta.jpeg", label: "Pink Sauce Pasta", emoji: "🍝" },
+  { image: "Images\\BBQ Pulled Nachos.jpeg", label: "BBQ Pulled Nachos", emoji: "🍔" },
+  { image: "Images\\Matcha Bubble Tea.jpeg", label: "Matcha Bubble Tea", emoji: "🧋" },
 ];
 
 export function GallerySection() {

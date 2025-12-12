@@ -22,10 +22,10 @@ export const menuData: MenuCategory[] = [
     name: "From The Fryer",
     icon: "",
     items: [
-      { id: "ff1", name: "Classic French Fries", description: "Crispy golden fries with signature seasoning", price: 99, category: "from-the-fryer", isVeg: true, image: "Images/Classic French Fries.jpeg" },
+      { id: "ff1", name: "Classic French Fries", description: "Crispy golden fries with signature seasoning", price: 99, category: "from-the-fryer", isVeg: true, image: "Images\\classic french fries.jpeg" },
       { id: "ff2", name: "Loaded Cheese Fries", description: "Fries topped with melted cheese and jalapeños", price: 149, category: "from-the-fryer", isVeg: true, isBestseller: true, image: "Images/Loaded Cheese Fries.jpeg" },
       { id: "ff3", name: "Peri Peri Fries", description: "Spicy fries with peri peri seasoning", price: 119, category: "from-the-fryer", isVeg: true, image: "Images/peri peri fries.jpeg" },
-      { id: "ff4", name: "Onion Rings", description: "Crispy battered onion rings", price: 129, category: "from-the-fryer", isVeg: true, image: "Images/Onion Rings.jpeg" },
+      { id: "ff4", name: "Onion Rings", description: "Crispy battered onion rings", price: 129, category: "from-the-fryer", isVeg: true, image: "Images/Onion Ring.jpeg" },
     ],
   },
   {
@@ -35,8 +35,8 @@ export const menuData: MenuCategory[] = [
     items: [
       { id: "t1", name: "Avocado Toast", description: "Sourdough with smashed avocado and poached egg", price: 199, category: "toasts", isVeg: true, isBestseller: true, image: "Images/Avocado Toast.jpeg" },
       { id: "t2", name: "Mushroom Bruschetta", description: "Garlic toast with sautéed mushrooms", price: 179, category: "toasts", isVeg: true, image: "Images/Mushroom Bruschetta.jpeg" },
-      { id: "t3", name: "Classic French Toast", description: "Caramelized bread with maple syrup", price: 159, category: "toasts", isVeg: true, image: "Images/Classic French Toast .jpeg" },
-      { id: "t4", name: "Cheese Garlic Toast", description: "Toasted bread with garlic butter and cheese", price: 139, category: "toasts", isVeg: true,image: "Images/Cheese Garlic Toast.jpeg" },
+      { id: "t3", name: "Classic French Toast", description: "Caramelized bread with maple syrup", price: 159, category: "toasts", isVeg: true, image: "Images/Classic French Toast.jpeg" },
+      { id: "t4", name: "Cheese Garlic Toast", description: "Toasted bread with garlic butter and cheese", price: 139, category: "toasts", isVeg: true,image: "Images/Cheese garlic bread.jpeg" },
     ],
   },
   {
@@ -47,7 +47,7 @@ export const menuData: MenuCategory[] = [
       { id: "p1", name: "Creamy Alfredo Pasta", description: "Fettuccine in rich parmesan cream sauce", price: 249, category: "pasta", isVeg: true, isBestseller: true, image: "Images/Creamy Alfredo Pasta.jpeg" },
       { id: "p2", name: "Arrabiata Penne", description: "Penne in spicy tomato sauce with herbs", price: 229, category: "pasta", isVeg: true, image: "Images/Arrabiata Penne.jpeg" },
       { id: "p3", name: "Mac & Cheese", description: "Classic comfort food with three cheese blend", price: 219, category: "pasta", isVeg: true, image: "Images/Mac & Cheese.jpeg" },
-      { id: "p4", name: "Pesto Pasta", description: "Fusilli with fresh basil pesto", price: 259, category: "pasta", isVeg: true, image: "Images/Zucchini Noodles with Pesto 🌱🥒_Looking for a light and refreshing alternative to traditional pasta_ Try our Zucchini Noodles with Pesto! 🥒🌿 Bursting with flavor and packed with nutrients, this dish is perfect .jpeg" },
+      { id: "p4", name: "Pesto Pasta", description: "Fusilli with fresh basil pesto", price: 259, category: "pasta", isVeg: true, image: "Images\\Pesto Pasta.jpeg" },
       { id: "p5", name: "Pink Sauce Pasta", description: "Creamy tomato sauce with Italian herbs", price: 239, category: "pasta", isVeg: true, image: "Images/Pink Sauce Pasta.jpeg" },
     ],
   },
@@ -76,10 +76,10 @@ export const menuData: MenuCategory[] = [
     name: "Salads",
     icon: "",
     items: [
-      { id: "s1", name: "Caesar Salad", description: "Romaine lettuce with parmesan and croutons", price: 189, category: "salads", isVeg: true, image: "Images/Caesar Salad.jpeg" },
-      { id: "s2", name: "Greek Salad", description: "Fresh veggies with feta and olives", price: 199, category: "salads", isVeg: true, image: "Images/Greek Salad.jpeg" },
-      { id: "s3", name: "Garden Fresh Salad", description: "Seasonal vegetables with house dressing", price: 169, category: "salads", isVeg: true, image: "Images/Garden Fresh Salad.jpeg" },
-      { id: "s4", name: "Quinoa Power Bowl", description: "Quinoa with roasted vegetables and tahini", price: 249, category: "salads", isVeg: true, isBestseller: true, image: "Images/Quinoa Power Bowl.jpeg" },
+      { id: "s1", name: "Caesar Salad", description: "Romaine lettuce with parmesan and croutons", price: 189, category: "salads", isVeg: true, image: "Images/Caesar Salad.jpg" },
+      { id: "s2", name: "Greek Salad", description: "Fresh veggies with feta and olives", price: 199, category: "salads", isVeg: true, image: "Images/Greek Salad.jpg" },
+      { id: "s3", name: "Garden Fresh Salad", description: "Seasonal vegetables with house dressing", price: 169, category: "salads", isVeg: true, image: "Images/Garden Fresh Salad.jpg" },
+      { id: "s4", name: "Quinoa Power Bowl", description: "Quinoa with roasted vegetables and tahini", price: 249, category: "salads", isVeg: true, isBestseller: true, image: "Images/Quinoa Power Bowl.jpg" },
     ],
   },
   {
@@ -87,10 +87,10 @@ export const menuData: MenuCategory[] = [
     name: "Sandwiches",
     icon: "",
     items: [
-      { id: "sw1", name: "Club Sandwich", description: "Triple decker with veggies and cheese", price: 199, category: "sandwiches", isVeg: true, isBestseller: true, image: "Images/Club Sandwich.jpeg" },
-      { id: "sw2", name: "Grilled Cheese Sandwich", description: "Golden toasted with melted cheese blend", price: 159, category: "sandwiches", isVeg: true, image: "Images/Grilled Cheese Sandwich.jpeg" },
-      { id: "sw3", name: "Veggie Panini", description: "Pressed sandwich with roasted vegetables", price: 189, category: "sandwiches", isVeg: true, image: "Images/Veggie Panini.jpeg" },
-      { id: "sw4", name: "Caprese Sandwich", description: "Fresh mozzarella, tomato and basil", price: 209, category: "sandwiches", isVeg: true, image: "Images/Caprese Sandwich.jpeg" },
+      { id: "sw1", name: "Club Sandwich", description: "Triple decker with veggies and cheese", price: 199, category: "sandwiches", isVeg: true, isBestseller: true, image: "Images/Club Sandwich.jpg" },
+      { id: "sw2", name: "Grilled Cheese Sandwich", description: "Golden toasted with melted cheese blend", price: 159, category: "sandwiches", isVeg: true, image: "Images/Grilled Cheese Sandwich.jpg" },
+      { id: "sw3", name: "Veggie Panini", description: "Pressed sandwich with roasted vegetables", price: 189, category: "sandwiches", isVeg: true, image: "Images/Veggie Panini.jpg" },
+      { id: "sw4", name: "Caprese Sandwich", description: "Fresh mozzarella, tomato and basil", price: 209, category: "sandwiches", isVeg: true, image: "Images/Caprese Sandwich.jpg" },
     ],
   },
   {
@@ -98,10 +98,10 @@ export const menuData: MenuCategory[] = [
     name: "Burgers",
     icon: "",
     items: [
-      { id: "b1", name: "Classic Veggie Burger", description: "Garden patty with fresh veggies", price: 179, category: "burgers", isVeg: true, image: "Images/Classic Veggie Burger.jpeg" },
-      { id: "b2", name: "Cheese Burst Burger", description: "Loaded with three types of cheese", price: 219, category: "burgers", isVeg: true, isBestseller: true, image: "Images/Cheese Burst Burger.jpeg" },
-      { id: "b3", name: "Spicy Mexican Burger", description: "With jalapeños and chipotle sauce", price: 229, category: "burgers", isVeg: true, image: "Images/Spicy Mexican Burger.jpeg" },
-      { id: "b4", name: "Mushroom Swiss Burger", description: "Sautéed mushrooms with Swiss cheese", price: 239, category: "burgers", isVeg: true, image: "Images/Mushroom Swiss Burger.jpeg" },
+      { id: "b1", name: "Classic Veggie Burger", description: "Garden patty with fresh veggies", price: 179, category: "burgers", isVeg: true, image: "Images/Classic Veggie Burger.jpg" },
+      { id: "b2", name: "Cheese Burst Burger", description: "Loaded with three types of cheese", price: 219, category: "burgers", isVeg: true, isBestseller: true, image: "Images/Cheese Burst Burger.jpg" },
+      { id: "b3", name: "Spicy Mexican Burger", description: "With jalapeños and chipotle sauce", price: 229, category: "burgers", isVeg: true, image: "Images/Spicy Mexican Burger.jpg" },
+      { id: "b4", name: "Mushroom Swiss Burger", description: "Sautéed mushrooms with Swiss cheese", price: 239, category: "burgers", isVeg: true, image: "Images/Mushroom Swiss Burger.jpg" },
     ],
   },
   {
@@ -109,11 +109,11 @@ export const menuData: MenuCategory[] = [
     name: "Pizza",
     icon: "",
     items: [
-      { id: "pz1", name: "Margherita Pizza", description: "Classic tomato, mozzarella and basil", price: 249, category: "pizza", isVeg: true, image: "Images/Margherita Pizza.jpeg" },
-      { id: "pz2", name: "Farm Fresh Pizza", description: "Loaded with seasonal vegetables", price: 289, category: "pizza", isVeg: true, isBestseller: true, image: "Images/Farm Fresh Pizza.jpeg" },
-      { id: "pz3", name: "Four Cheese Pizza", description: "Mozzarella, cheddar, parmesan, gouda", price: 329, category: "pizza", isVeg: true , image: "Images/Four Cheese Pizza.jpeg" },
-      { id: "pz4", name: "BBQ Paneer Pizza", description: "Paneer with BBQ sauce and onions", price: 309, category: "pizza", isVeg: true,image: "Images/BBQ Paneer Pizza.jpeg" },
-      { id: "pz5", name: "Pesto Mushroom Pizza", description: "Pesto base with wild mushrooms", price: 299, category: "pizza", isVeg: true, image: "Images/Pesto Mushroom Pizza.jpeg" },
+      { id: "pz1", name: "Margherita Pizza", description: "Classic tomato, mozzarella and basil", price: 249, category: "pizza", isVeg: true, image: "Images/Margherita Pizza.jpg" },
+      { id: "pz2", name: "Farm Fresh Pizza", description: "Loaded with seasonal vegetables", price: 289, category: "pizza", isVeg: true, isBestseller: true, image: "Images/Farm Fresh Pizza.jpg" },
+      { id: "pz3", name: "Four Cheese Pizza", description: "Mozzarella, cheddar, parmesan, gouda", price: 329, category: "pizza", isVeg: true , image: "Images/Four Cheese Pizza.jpg" },
+      { id: "pz4", name: "BBQ Paneer Pizza", description: "Paneer with BBQ sauce and onions", price: 309, category: "pizza", isVeg: true,image: "Images/BBQ Paneer Pizza.jpg" },
+      { id: "pz5", name: "Pesto Mushroom Pizza", description: "Pesto base with wild mushrooms", price: 299, category: "pizza", isVeg: true, image: "Images/Pesto Mushroom Pizza.jpg" },
     ],
   },
   {
@@ -121,11 +121,11 @@ export const menuData: MenuCategory[] = [
     name: "Waffles",
     icon: "",
     items: [
-      { id: "w1", name: "Classic Belgian Waffle", description: "With maple syrup and butter", price: 169, category: "waffles", isVeg: true , image: "Images/Classic Belgian Waffle.jpeg"},
-      { id: "w2", name: "Chocolate Dream Waffle", description: "Drizzled with chocolate sauce and cream", price: 199, category: "waffles", isVeg: true, isBestseller: true, image: "Images/Chocolate Dream Waffle.jpeg" },
-      { id: "w3", name: "Berry Bliss Waffle", description: "Topped with fresh berries and cream", price: 219, category: "waffles", isVeg: true , image: "Images/Berry Bliss Waffle.jpeg" },
-      { id: "w4", name: "Nutella Banana Waffle", description: "Nutella spread with fresh bananas", price: 229, category: "waffles", isVeg: true , image: "Images/Nutella Banana Waffle.jpeg" },
-      { id: "w5", name: "Red Velvet Waffle", description: "Red velvet flavor with cream cheese", price: 239, category: "waffles", isVeg: true , image: "Images/Red Velvet Waffle.jpeg" },
+      { id: "w1", name: "Classic Belgian Waffle", description: "With maple syrup and butter", price: 169, category: "waffles", isVeg: true , image: "Images/Classic Belgian Waffle.jpg"},
+      { id: "w2", name: "Chocolate Dream Waffle", description: "Drizzled with chocolate sauce and cream", price: 199, category: "waffles", isVeg: true, isBestseller: true, image: "Images/Chocolate Dream Waffle.jpg" },
+      { id: "w3", name: "Berry Bliss Waffle", description: "Topped with fresh berries and cream", price: 219, category: "waffles", isVeg: true , image: "Images/Berry Bliss Waffle.jpg" },
+      { id: "w4", name: "Nutella Banana Waffle", description: "Nutella spread with fresh bananas", price: 229, category: "waffles", isVeg: true , image: "Images/Nutella Banana Waffle.jpg" },
+      { id: "w5", name: "Red Velvet Waffle", description: "Red velvet flavor with cream cheese", price: 239, category: "waffles", isVeg: true , image: "Images/Red Velvet Waffle.jpg" },
     ],
   },
   {
@@ -180,7 +180,7 @@ export const menuData: MenuCategory[] = [
     icon: "",
     items: [
       { id: "ms1", name: "Classic Vanilla Shake", description: "Creamy vanilla milkshake", price: 159, category: "milkshakes", isVeg: true ,  image: "Images/Classic Vanilla Shake.jpg" },
-      { id: "ms2", name: "Chocolate Shake", description: "Rich chocolate indulgence", price: 169, category: "milkshakes", isVeg: true, isBestseller: true , image: "Images/Chocolate Shake.jpg" },
+      { id: "ms2", name: "Chocolate Shake", description: "Rich chocolate indulgence", price: 169, category: "milkshakes", isVeg: true, isBestseller: true , image: "Images/Classic  Hot Chocolate.jpg" },
       { id: "ms3", name: "Strawberry Shake", description: "Fresh strawberry blend", price: 169, category: "milkshakes", isVeg: true , image: "Images/Strawberry Shake.jpg" },
       { id: "ms4", name: "Oreo Shake", description: "Cookies and cream delight", price: 189, category: "milkshakes", isVeg: true , image: "Images/Oreo Shake.jpg" },
       { id: "ms5", name: "Nutella Shake", description: "Hazelnut chocolate heaven", price: 199, category: "milkshakes", isVeg: true, image: "Images/Nutella Shake.jpg" },
