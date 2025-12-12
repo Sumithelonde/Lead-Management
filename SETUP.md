@@ -100,14 +100,32 @@ Edit `src/data/menu.ts` to add, remove, or modify menu items:
 
 ### Customizing Colors
 
-Edit `src/index.css` to modify the color palette:
+Edit `src/index.css` to modify the color palette for both light and dark modes:
 
 ```css
+/* Light Mode */
 :root {
   --primary: 25 50% 30%;      /* Coffee brown */
   --accent: 35 80% 55%;        /* Golden caramel */
   --secondary: 38 45% 92%;     /* Warm cream */
 }
+
+/* Dark Mode */
+.dark {
+  --primary: 35 70% 60%;      /* Light caramel */
+  --accent: 35 75% 55%;        /* Golden caramel */
+  --secondary: 25 20% 18%;     /* Dark brown */
+}
+```
+
+### Theme Configuration
+
+The theme preference is stored in localStorage. To change the default theme, edit `src/App.tsx`:
+
+```tsx
+<ThemeProvider defaultTheme="light" storageKey="la-farine-theme">
+  {/* Change to "dark" or "system" */}
+</ThemeProvider>
 ```
 
 ### Adding New Pages
@@ -175,6 +193,13 @@ npm install
 ```bash
 # Check types
 npm run build
+```
+
+**Theme not persisting:**
+```bash
+# Clear localStorage in browser DevTools
+# Application > Local Storage > Clear
+# Or use: localStorage.clear()
 ```
 
 ### Getting Help

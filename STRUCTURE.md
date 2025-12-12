@@ -47,6 +47,8 @@ la-farine-patisserie/
 │   │   │   ├── toaster.tsx
 │   │   │   └── ... (other UI components)
 │   │   │
+│   │   ├── theme-provider.tsx       # Theme context provider
+│   │   ├── theme-toggle.tsx         # Dark/Light mode toggle button
 │   │   └── NavLink.tsx              # Custom NavLink component
 │   │
 │   ├── data/                        # Data files
@@ -113,14 +115,16 @@ la-farine-patisserie/
 
 | Component | Purpose |
 |-----------|---------|
-| `Navbar.tsx` | Sticky navigation, mobile menu |
+| `Navbar.tsx` | Sticky navigation, mobile menu, theme toggle |
 | `Footer.tsx` | Site footer with links and info |
 | `FloatingOrderButton.tsx` | Mobile CTA button |
 | `HeroSection.tsx` | Main hero with 3D element |
-| `MenuCard.tsx` | Individual menu item display |
+| `MenuCard.tsx` | Individual menu item display with veg/non-veg indicator |
 | `CategorySection.tsx` | Menu category with items |
 | `SplineViewer.tsx` | 3D scene wrapper |
-| `BakeryScene.tsx` | Animated fallback illustration |
+| `BakeryScene.tsx` | Animated fallback illustration with shadow effects |
+| `theme-provider.tsx` | Theme state management and persistence |
+| `theme-toggle.tsx` | Interactive dark/light mode toggle button |
 
 ### Data
 
@@ -149,9 +153,23 @@ la-farine-patisserie/
 
 ## Design System
 
-The design system is centralized in two files:
+The design system is centralized in three main areas:
 
-- **`src/index.css`**: CSS variables for colors, shadows, animations
+- **`src/index.css`**: CSS variables for colors, shadows, animations (both light and dark modes)
 - **`tailwind.config.ts`**: Tailwind extensions using CSS variables
+- **`src/components/theme-provider.tsx`**: Theme state management
 
-Always use semantic tokens (`bg-primary`, `text-muted-foreground`) instead of direct colors (`bg-brown-500`).
+### Theme System
+
+- Theme preference stored in localStorage
+- Automatic detection of system color scheme
+- Smooth transitions between themes
+- CSS variable-based color system
+- Support for light, dark, and system themes
+
+### Best Practices
+
+- Always use semantic tokens (`bg-primary`, `text-muted-foreground`) instead of direct colors (`bg-brown-500`)
+- Use theme-aware CSS variables for custom colors
+- Test components in both light and dark modes
+- Ensure proper contrast ratios for text readability

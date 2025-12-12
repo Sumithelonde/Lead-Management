@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # La Farine Patisserie & Café
 
 A modern, elegant bakery and café website built with React, Vite, TailwindCSS, and Spline 3D.
@@ -9,7 +8,8 @@ La Farine Patisserie & Café is a premium bakery website showcasing artisan Fren
 
 **Location:** Shraddhanand Chowk, opposite A Square Building, Laxminagar, Nagpur 440022  
 **Phone:** +91 88067 54042  
-**Cost for Two:** ₹350 approx
+**Cost for Two:** ₹350 approx  
+**Google Maps:** [View Location](https://www.google.com/maps/place/La+Farine+patisserie+and+cafe/@21.1248825,79.0567512,17z)
 
 ## Tech Stack
 
@@ -21,6 +21,7 @@ La Farine Patisserie & Café is a premium bakery website showcasing artisan Fren
 - **Spline 3D** - Interactive 3D Elements
 - **Shadcn/UI** - Component Library
 - **React Router** - Client-Side Routing
+- **Next Themes** - Dark/Light Mode Support
 
 ## Features
 
@@ -58,19 +59,30 @@ La Farine Patisserie & Café is a premium bakery website showcasing artisan Fren
 
 ### UI Components
 - Sticky navigation bar
+- Dark/Light mode toggle with smooth transitions
 - Floating order button (mobile)
 - Toast notifications
 - Glass-morphism cards
 - Custom button variants
+- Theme-aware color system
+- Interactive hover animations
 
 ## Design System
 
 ### Color Palette
+**Light Mode:**
 - **Primary:** Rich Coffee Brown
 - **Accent:** Golden Caramel
 - **Secondary:** Warm Cream
 - **Highlight:** Soft Pink/Blush
 - **Background:** Warm White
+
+**Dark Mode:**
+- **Primary:** Golden Caramel
+- **Accent:** Golden Caramel
+- **Secondary:** Dark Brown
+- **Background:** Deep Brown
+- Automatic theme adaptation with smooth transitions
 
 ### Typography
 - **Display:** Playfair Display (serif)
@@ -81,6 +93,7 @@ La Farine Patisserie & Café is a premium bakery website showcasing artisan Fren
 - Medium shadows for cards
 - Elevated shadows for modals
 - Glow effects for CTAs
+- Theme-adaptive shadow opacity
 
 ## Getting Started
 
@@ -103,9 +116,16 @@ See [STRUCTURE.md](./STRUCTURE.md) for the complete folder hierarchy.
 - Icons: Lucide React
 - 3D: Spline
 
+## Recent Updates
+
+- ✅ Dark/Light mode toggle with persistent theme preference
+- ✅ Theme-aware color system across all components
+- ✅ Smooth transitions between themes
+- ✅ Interactive menu category buttons with animations
+- ✅ Clickable location cards with Google Maps integration
+- ✅ Veg/Non-veg indicators on menu items
+- ✅ Enhanced shadow effects on 3D elements
+
 ## License
 
 MIT License - Feel free to use this project as a template for your own café or bakery website.
-=======
-# Lead-Management
->>>>>>> 370f83102350946147c57a7518b88c0554fa126a
