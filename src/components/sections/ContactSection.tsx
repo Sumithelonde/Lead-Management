@@ -183,15 +183,17 @@ export function ContactSection() {
                 title="La Farine Location"
               />
             </div>
-            <a
-              href="https://www.google.com/maps/dir//Shraddhanand+Chowk,+Laxminagar,+Nagpur+440022"
+            <motion.a
+              href="https://www.google.com/maps/place/La+Farine+patisserie+and+cafe/@21.1248825,79.0567512,17z/data=!4m15!1m8!3m7!1s0x3bd4bfb969670c8d:0x118eb3e477af864a!2sLa+Farine+patisserie+and+cafe!8m2!3d21.1248825!4d79.0593261!10e9!16s%2Fg%2F11ghlp90d4!3m5!1s0x3bd4bfb969670c8d:0x118eb3e477af864a!8m2!3d21.1248825!4d79.0593261!16s%2Fg%2F11ghlp90d4?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-sm text-accent hover:underline"
+              whileHover={{ scale: 1.05, x: 5 }}
+              whileTap={{ scale: 0.95 }}
+              className="inline-flex items-center gap-2 px-6 py-3 bg-accent text-accent-foreground rounded-full font-medium shadow-md hover:shadow-lg transition-all duration-300 group"
             >
-              <MapPin className="w-4 h-4" />
+              <MapPin className="w-5 h-5 group-hover:scale-110 transition-transform" />
               Get Directions
-            </a>
+            </motion.a>
           </motion.div>
         </div>
       </div>

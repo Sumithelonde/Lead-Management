@@ -37,11 +37,11 @@ const About = () => {
       <main className="pt-24">
         {/* Hero */}
         <section className="py-16 md:py-24 hero-gradient relative overflow-hidden">
-          <div className="absolute inset-0 opacity-20">
+          <div className="absolute inset-0 opacity-20 dark:opacity-10">
             <div
               className="absolute inset-0"
               style={{
-                backgroundImage: `radial-gradient(circle at 30% 40%, hsl(35 70% 80% / 0.4) 0%, transparent 50%)`,
+                backgroundImage: `radial-gradient(circle at 30% 40%, hsl(var(--accent) / 0.4) 0%, transparent 50%)`,
               }}
             />
           </div>

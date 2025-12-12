@@ -8,13 +8,13 @@ export function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden hero-gradient">
       {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-30">
+      <div className="absolute inset-0 opacity-20 dark:opacity-10">
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: `radial-gradient(circle at 20% 50%, hsl(35 70% 80% / 0.3) 0%, transparent 50%),
-                             radial-gradient(circle at 80% 20%, hsl(25 60% 75% / 0.2) 0%, transparent 40%),
-                             radial-gradient(circle at 60% 80%, hsl(30 65% 85% / 0.25) 0%, transparent 45%)`,
+            backgroundImage: `radial-gradient(circle at 20% 50%, hsl(var(--accent) / 0.3) 0%, transparent 50%),
+                             radial-gradient(circle at 80% 20%, hsl(var(--primary) / 0.2) 0%, transparent 40%),
+                             radial-gradient(circle at 60% 80%, hsl(var(--accent) / 0.25) 0%, transparent 45%)`,
           }}
         />
       </div>
